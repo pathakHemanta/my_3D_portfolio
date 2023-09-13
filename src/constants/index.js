@@ -125,7 +125,7 @@ const experiences = [
     title: "Full-Stack Developer Intern",
     company_name: "IBM Tech Grant",
     iconBg: "#383E56",
-    date: "Sep 2022 - May 2023",
+    date: "Jan 2022 - May 2023",
     points: [
       "Led a team of developers in desigining and building 20+ static and dynamic visually appealing websites, with a primary focus on back-end development using Spring Boot, Django, NodeJS and REST API.",
       "Utilized Spring Boot and Nodejs to create robust and efficient back-end solutions, handling data processing, user authentication, REST API integrations, and developing performant and scalable server-side applications.",

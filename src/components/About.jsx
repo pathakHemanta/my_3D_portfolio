@@ -54,7 +54,7 @@ const About = () => {
         results, I thrive in dynamic environments where creativity and
         collaboration are the guiding forces. Join me on this journey of endless
         possibilities as we shape the future through groundbreaking software
-        solutions. Together, let's code the path to success!
+        solutions. Together, let's code the path to success and make ideas come true!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">

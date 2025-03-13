@@ -111,13 +111,26 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Meyer Distributing",
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Jan 2024 - Present",
     points: [
       "Spearheaded the transition from a legacy ASP.NET Webforms application to an MVC Architecture pattern at Meyer Distributing, streamlining daily operations for thousands of employees.",
       "Engineered an internal IT Microservice utilizing a Clean Architecture approach with ASP.NET Core MVC within an Agile team, enhancing system flexibility and scalability.",
       "Optimized IT Ticketing functionalities and Code releasing platforms, resulting in a 50% increase in efficiency compared to the previous system, fostering rapid feature deployment.",
       "Contributed actively to a cross-functional team in the planning, development, testing, and maintenance of a new application, ensuring alignment with business objectives and user needs.",
+      "Developed a Robust backend for Meyer Logistics using ASP.NET Razor Pages improving order tracking system by 20% and customer satisfaction by 50%.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Technova Global",
+    iconBg: "#383E56",
+    date: "May 2023 - Dec 2023",
+    points: [
+      "Developed a talent management platform with Spring and React that streamlined skill tracking and automated project-based talent selection, reducing manual effort by 40%.",
+      "Engineered an availability tracking system that identified bench talent in real time, improving resource allocation efficiency by 30%.",
+      "Optimized IT Ticketing functionalities and Code releasing platforms, resulting in a 50% increase in efficiency compared to the previous system, fostering rapid feature deployment.",
+      "Automated talent-project matching using data-driven algorithms, accelerating the selection process by 50% and enhancing workforce utilization.",
       "Developed a Robust backend for Meyer Logistics using ASP.NET Razor Pages improving order tracking system by 20% and customer satisfaction by 50%.",
     ],
   },

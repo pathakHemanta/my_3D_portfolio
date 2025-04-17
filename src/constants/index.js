@@ -39,11 +39,11 @@ const services = [
     icon: web,
   },
   {
-    title: ".NET Developer",
+    title: "ASP.NET Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
@@ -114,11 +114,16 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2024 - Present",
     points: [
-      "Spearheaded the transition from a legacy ASP.NET Webforms application to an MVC Architecture pattern at Meyer Distributing, streamlining daily operations for thousands of employees.",
-      "Engineered an internal IT Microservice utilizing a Clean Architecture approach with ASP.NET Core MVC within an Agile team, enhancing system flexibility and scalability.",
-      "Optimized IT Ticketing functionalities and Code releasing platforms, resulting in a 50% increase in efficiency compared to the previous system, fostering rapid feature deployment.",
-      "Contributed actively to a cross-functional team in the planning, development, testing, and maintenance of a new application, ensuring alignment with business objectives and user needs.",
-      "Developed a Robust backend for Meyer Logistics using ASP.NET Razor Pages improving order tracking system by 20% and customer satisfaction by 50%.",
+      "Led migration of legacy ASP.NET Web Forms to ASP.NET Core microservices, ensuring seamless transition and improved performance.",
+      "Architected and optimized microservices architecture using API Gateway & reverse proxy, enhancing system scalability.",
+      "Designed and implemented a Ticket Management System & Code Release Manager using Angular and ASP.NET Core, improving site speed by 90% and developer productivity by 50%.",
+      "Integrated and automated freight quoting and shipment APIs within Meyer’s business system in a TDD environment with NUnit Testing, improving logistics efficiency.",
+      "Implemented SEO enhancements and optimized eCommerce sitemaps, improving search visibility and traffic.",
+      "Managed database operations, optimizing stored procedures and data integrity in MS SQL Server & SSMS.",
+      "Deployed microservices using Azure DevOps CI/CD pipelines, streamlining release management.",
+      "Collaborated in an Agile team (5 developers) through an internal system, contributing to sprint planning, retrospectives, and backlog refinement.",
+      "Resolved high-priority system issues (HDs) within Meyer’s ordering system, ensuring fixes within 24 hours.",
+      "Engineered automated FTP file retrieval and data storage for vendor invoices, eliminating manual data entry.",
     ],
   },
   {

@@ -1,3 +1,5 @@
+import { easeIn } from "framer-motion";
+
 export const textVariant = (delay) => {
   return {
     hidden: {
@@ -8,9 +10,10 @@ export const textVariant = (delay) => {
       y: 0,
       opacity: 1,
       transition: {
-        type: "spring",
-        duration: 1.25,
+        type: "tween",
+        duration: 0.5,
         delay: delay,
+        ease: "easeIn",
       },
     },
   };
@@ -31,7 +34,7 @@ export const fadeIn = (direction, type, delay, duration) => {
         type: type,
         delay: delay,
         duration: duration,
-        ease: "easeOut",
+        ease: "easeIn",
       },
     },
   };

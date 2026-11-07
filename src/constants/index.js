@@ -229,7 +229,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "/biolinerx.png",
+    image: "/optimized/biolinerx.webp",
     source_code_link: "https://bioline-rx-website-785368.netlify.app/",
   },
   {
@@ -250,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/accent.png",
+    image: "/optimized/accent.webp",
     source_code_link:
       "https://develop--accent-tx-long-scroll-tall-tower.netlify.app/",
   },
@@ -272,7 +272,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/artbio.png",
+    image: "/optimized/artbio.webp",
     source_code_link: "https://develop--artbio-steel-swordfish.netlify.app/",
   },
   {
@@ -297,7 +297,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "/glossa.png",
+    image: "/optimized/glossa.webp",
     source_code_link: "https://develop--glossaprep.netlify.app/",
   },
   {
@@ -322,7 +322,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "/dtx.png",
+    image: "/optimized/dtx.webp",
     source_code_link: "https://staging--dtxpharma-3224ad.netlify.app/",
   },
   {
@@ -343,7 +343,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/averitas.png",
+    image: "/optimized/averitas.webp",
     source_code_link:
       "https://develop--loyal-neptune-unbranded-0f6861.netlify.app/",
   },

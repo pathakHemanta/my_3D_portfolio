@@ -1,14 +1,19 @@
-import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
+import React, { useRef, useState, lazy, Suspense } from "react";
+import { motion, useInView, useReducedMotion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+const EarthCanvas = lazy(() => import("./canvas/Earth"));
+
 const Contact = () => {
   const formRef = useRef();
+  const globeRef = useRef(null);
+  const globeNearby = useInView(globeRef, { margin: "200px" });
+  const globeVisible = useInView(globeRef);
+  const reduceMotion = useReducedMotion();
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -123,9 +128,14 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
+        ref={globeRef}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        <EarthCanvas />
+        {globeNearby && !reduceMotion && (
+          <Suspense fallback={<p className="text-secondary text-center">Loading globe…</p>}>
+            <EarthCanvas active={globeVisible} />
+          </Suspense>
+        )}
       </motion.div>
     </div>
   );

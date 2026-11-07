@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
-      variants={fadeIn("right", "tween", (services.length - index) * 0.4, 0.4)}
+      variants={fadeIn("right", "tween", index * 0.06, 0.35)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
@@ -38,12 +38,12 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant(0.4)}>
+      <motion.div variants={textVariant(0)}>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.6, 0.75)}
+        variants={fadeIn("", "", 0, 0.35)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a tech-savvy explorer with a passion for innovation and a

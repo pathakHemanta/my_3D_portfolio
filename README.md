@@ -75,3 +75,17 @@ This project is licensed under the [MIT License](LICENSE).
 Thank you for visiting my personal portfolio website! I hope you enjoy exploring my work and getting to know me better. If you have any questions or would like to collaborate, don't hesitate to reach out through the contact form on the website.
 
 Happy coding! 🚀
+## Browser tests
+
+Run these commands from the project directory:
+
+```sh
+npm ci --legacy-peer-deps
+npx playwright install chromium
+npm run test:e2e
+```
+
+Playwright builds and serves a separate production preview on port 4174. Tests
+run in desktop and mobile Chromium, intercept EmailJS requests, and require no
+EmailJS credentials. GitHub Actions runs the same suite on pull requests.
+Use `npx playwright show-report` to open the latest local report.

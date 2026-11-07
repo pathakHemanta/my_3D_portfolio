@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.3, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.06, 0.35)}>
       <Tilt
         options={{
           max: 60,
@@ -29,7 +29,13 @@ const ProjectCard = ({
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
-            alt='project_image'
+            alt={`${name} website preview`}
+            loading="lazy"
+            decoding="async"
+            width="720"
+            height="720"
+            srcSet={`${image.replace('.webp', '-360.webp')} 360w, ${image} 720w`}
+            sizes="(min-width: 640px) 320px, calc(100vw - 72px)"
             className='w-full h-full object-fit rounded-2xl'
           />
 
@@ -66,13 +72,13 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant(0.4)}>
+      <motion.div variants={textVariant(0)}>
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
-          variants={fadeIn("", "", 0.1, 0.7)}
+          variants={fadeIn("", "", 0, 0.35)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Following projects showcases my skills and experience through
